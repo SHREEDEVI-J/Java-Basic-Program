@@ -1,0 +1,12 @@
+public class function1 {
+    public static void main(String[] args) {
+        String name = "shree";       // Original string
+        String Reverse = "";         // Empty string to hold reversed result
+
+        for (int i = name.length() - 1; i >= 0; i--) {
+            Reverse += name.charAt(i); // Append characters in reverse order
+        }
+
+        System.out.print(Reverse);    // Output: eerhs
+    }
+}
